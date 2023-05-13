@@ -1,16 +1,6 @@
-<table><tr>
-  <td>
-    <img src="https://github.com/strangeway-org/selenide-kelt/blob/master/img/kelt.png" alt="Kelt Helmet" width="64px">
-  </td>
-  <td>
-    <h1>Selenide Kelt</h1>
-  </td>
-</tr></table>
-
 Extension functions to make Selenide tests with Kotlin awesome!
 
 [![license](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](http://www.apache.org/licenses/LICENSE-2.0)
-[ ![Download](https://api.bintray.com/packages/strangeway-org/libs/selenide-kelt/images/download.svg) ](https://bintray.com/strangeway-org/libs/selenide-kelt/_latestVersion)
 
 ## Maven dependency:
 
@@ -18,7 +8,7 @@ Gradle:
 ```groovy
 repositories {
     maven {
-        url "https://dl.bintray.com/strangeway-org/libs" 
+        url "https://jitpack.io" 
     }
 }
 
@@ -93,7 +83,3 @@ dependencies {
     elts(".all") shouldBe CollectionCondition.empty
     elts(".parts") shouldHave CollectionCondition.texts("1", "2")
     ```
-
-## If you want to support the project
-  
-<a href="https://www.buymeacoffee.com/jreznot" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
